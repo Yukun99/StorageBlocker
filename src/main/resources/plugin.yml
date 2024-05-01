@@ -1,7 +1,7 @@
 name: StorageBlocker
 author: Yukun
 main: me.yukun.storageblocker.Main
-version: 1.0.0
+version: 1.0.0a
 api-version: 1.20
 description: >
   A plugin that prevents the storing of certain items.

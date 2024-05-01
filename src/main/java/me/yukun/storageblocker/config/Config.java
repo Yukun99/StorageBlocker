@@ -52,10 +52,10 @@ public class Config {
    */
   @SuppressWarnings("BooleanMethodIsAlwaysInverted")
   public static boolean canBlock(Player player) {
-    if (player.hasPermission("storageblocker.*")) {
+    if (!player.hasPermission("storageblocker.*")) {
       return true;
     }
-    if (player.hasPermission("storageblocker.admin")) {
+    if (!player.hasPermission("storageblocker.admin")) {
       return true;
     }
     return !player.hasPermission("storageblocker.bypass");
