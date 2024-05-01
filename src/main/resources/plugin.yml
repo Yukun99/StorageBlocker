@@ -1,0 +1,11 @@
+name: StorageBlocker
+author: Yukun
+main: me.yukun.storageblocker.Main
+version: 1.0.0
+api-version: 1.20
+description: >
+  A plugin that prevents the storing of certain items.
+commands:
+  storageblocker:
+    description: Base storage blocker command.
+    aliases: [ storeblock, stblock, storebl, stoblo, sb ]

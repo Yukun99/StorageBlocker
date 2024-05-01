@@ -1,0 +1,4 @@
+#prefix before all messages
+Prefix: '&bStorage&eBlocker&f >> &7'
+#Message sent when player tries to store a blocked item.
+Blocked: '&cYou may not store this item here!'

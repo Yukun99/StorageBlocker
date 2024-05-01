@@ -1,0 +1,41 @@
+# Name of the blocked item in the config. You can change this to anything you want.
+# Add more below for more items, but make sure every item is different.
+Key:
+  # You may delete any of the following fields to block any item matching some of the following fields.
+  # For example, if I delete the ItemType field, any item type will get blocked if it matches the remaining fields.
+  # List of item types: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  ItemType: "TRIPWIRE_HOOK"
+  Name: "&b&lRARE KEY"
+  Lore:
+    - "&aUse this key to"
+    - "&aopen a rare crate."
+  # List of enchantments: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+  # Format is ENCHANTMENT:LEVEL, ENCHANTMENT must be in all caps.
+  Enchantments:
+    - "UNBREAKING:3"
+    - "FORTUNE:3"
+  # List of inventory types: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/inventory/InventoryType.html
+  # If you're using player inventory for some reason you're just looking for trouble. It will not work.
+  InventoryTypes:
+    - "HOPPER"
+    - "DROPPER"
+    - "DISPENSER"
+    - "CHEST"
+    - "BARREL"
+    - "SHULKER_BOX"
+Key2:
+  ItemType: "TRIPWIRE_HOOK"
+  Name: "&a&lCOMMON KEY"
+  Lore:
+    - "&aUse this key to"
+    - "&aopen a common crate."
+  Enchantments:
+    - "UNBREAKING:3"
+    - "FORTUNE:3"
+  InventoryTypes:
+    - "HOPPER"
+    - "DROPPER"
+    - "DISPENSER"
+    - "CHEST"
+    - "BARREL"
+    - "SHULKER_BOX"
