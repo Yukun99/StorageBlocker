@@ -1,4 +1,4 @@
-package me.yukun.storageblocker.triggers;
+package me.yukun.storageblocker.trigger;
 
 import me.yukun.storageblocker.Filter;
 import me.yukun.storageblocker.config.Config;

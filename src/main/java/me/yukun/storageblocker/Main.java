@@ -4,7 +4,7 @@ import java.util.Objects;
 import me.yukun.storageblocker.command.CommandManager;
 import me.yukun.storageblocker.config.FileManager;
 import me.yukun.storageblocker.config.Messages;
-import me.yukun.storageblocker.triggers.StoreEventTrigger;
+import me.yukun.storageblocker.trigger.StoreEventTrigger;
 import org.bukkit.Bukkit;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
